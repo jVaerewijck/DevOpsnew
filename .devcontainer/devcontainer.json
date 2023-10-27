@@ -1,0 +1,14 @@
+{
+    "name": "DevOps devcontainer",
+    "dockerComposeFile":"docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace/${localWorkspaceFolderBasename}",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Prisma.prisma"
+            ]
+        }
+    }
+}
